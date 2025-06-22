@@ -1,0 +1,48 @@
+@media (max-width: 1200px) {
+    .forms {
+        flex-direction: column;
+        align-items: center;
+    }
+    .desc {
+        width: 90%;
+    }
+
+    .column {
+        width: 90%;
+    }
+
+    .input, .submit {
+        width: 100%;
+    }
+
+    .icons {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+        margin: 40px 0;
+    }
+
+    .images {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .images img {
+        width: 90%;
+        max-width: 350px;
+        height: auto;
+    }
+
+    .content {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+
+    .left, .right, .contact {
+        margin-left: 0;
+        margin-right: 0;
+        padding-bottom: 20px;
+    }
+}
